@@ -1,0 +1,8 @@
+/* This is the css file for Codecademy's Unit 4 My Times project: index.html.  */
+
+/* Setup for whole page. */
+body {
+  font-family: Helvetica;
+  background-color: white;
+  text-align: center;
+}
