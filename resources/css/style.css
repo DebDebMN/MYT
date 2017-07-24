@@ -1,12 +1,24 @@
 /* This is the css file for Codecademy's Unit 4 My Times project: index.html.  */
 
-/* Setup for whole page. */
+/* Style for whole page for font. */
 body {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
 }
 
+/* Style navigation links for whole page. */
+a:link,
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/*  Syle header.  There are two parts: logo and navigation.  */
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -19,32 +31,24 @@ body {
   align-items: center;
   padding-left: 15px;
 }
-.header-logo P {
-  color: MediumAquamarine;
-  padding-left: 15px;
-}
+  .header-logo P {
+    color: MediumAquamarine;
+    padding-left: 15px;
+  }
 
 .header-nav-container{
   padding-top: 5px;
   margin-right: 50px;
 }
 
-.headerlist li {
-  display: inline-block;
-}
+  .header-items{
+    justify-content: center;
+  }
 
-.nav-item-box{
-  width: 70px;
-  text-align: center;
-}
+  .headerlist li {
+    display: inline-block;
+  }
 
-/* Set up the treatment of navigation links for whole page. */
-a:link,
-a:visited {
-  color: black;
-}
-
-/* mouse over link */
-a:hover {
-    color: yellow;
-}
+  .nav-item-box{
+    padding-right: 30px;
+  }
