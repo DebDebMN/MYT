@@ -2,7 +2,49 @@
 
 /* Setup for whole page. */
 body {
-  font-family: Helvetica;
-  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: thin solid black;
+}
+
+.header-logo {
+  display: inline-flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.header-logo P {
+  color: MediumAquamarine;
+  padding-left: 15px;
+}
+
+.header-nav-container{
+  padding-top: 5px;
+  margin-right: 50px;
+}
+
+.headerlist li {
+  display: inline-block;
+}
+
+.nav-item-box{
+  width: 70px;
   text-align: center;
+}
+
+/* Set up the treatment of navigation links for whole page. */
+a:link,
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
 }
