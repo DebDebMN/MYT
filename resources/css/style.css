@@ -52,3 +52,86 @@ a:hover {
   .nav-item-box{
     padding-right: 30px;
   }
+
+/* Style main body.  Three columns. */
+.columns-container {
+  display: inline-flex;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-family: Georgia;
+  text-align:left;
+}
+.column.large {
+  width: 630px;
+  border: thin solid red;
+  margin-right: 25px;
+}
+
+    .feeling-funny-image{
+      padding-top: 30px;
+      padding-left: 20px;
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+      background-image: url("../images/img-story-main-dinner-table.png");
+      height: 250px;
+      border: thin solid blue;
+    }
+.story-title p{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  margin-right: 15px;
+}
+.story-text p{
+  font-weight: normal;
+  font-size: 17px;
+  color: black;
+  margin-right: 15px;
+}
+
+.feeling-funny-story{
+  border: thin solid black;
+}
+
+.half-column-articles{
+  display: inline-flex;
+}
+
+.earth-spins-image{
+  background-image: url("../images/img-story-2-fall-season.png");
+  border: thin solid black;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+  margin-right: 20px;
+  text-align:center;
+}
+
+.camera-image{
+  background-image: url("../images/img-story-3-camera.png");
+  border: thin solid black;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.orca-story{
+  border: thin solid black;
+}
+.burger-story{
+  border: thin solid black;
+}
+.column.medium {
+  width: 300px;
+  border: thin solid green;
+  margin-right: 25px;
+}
+
+.column.small {
+  width: 240px;
+  border: thin solid blue;
+}
