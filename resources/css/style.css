@@ -24,6 +24,13 @@ a:hover {
   justify-content: space-between;
   padding: 15px;
   border-bottom: thin solid black;
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+
 }
 
 .header-logo {
@@ -31,7 +38,7 @@ a:hover {
   align-items: center;
   padding-left: 15px;
 }
-  .header-logo P {
+  .header-logo p {
     color: MediumAquamarine;
     padding-left: 15px;
   }
@@ -53,9 +60,13 @@ a:hover {
     padding-right: 30px;
   }
 
+
 /* Style main body.  Three columns. */
 .columns-container {
+  position:relative;
+  top: 100px;
   display: inline-flex;
+  z-index: 1;
   margin-top: 25px;
   margin-left: 100px;
   font-family: Georgia;
@@ -63,7 +74,6 @@ a:hover {
 }
 .column.large {
   width: 630px;
-  border: thin solid red;
   margin-right: 25px;
 }
 
@@ -75,13 +85,16 @@ a:hover {
       color: white;
       background-image: url("../images/img-story-main-dinner-table.png");
       height: 250px;
-      border: thin solid blue;
+
+      /* border: thin solid blue; */
     }
 .story-title p{
   font-weight: bold;
   font-size: 30px;
   color: black;
   margin-right: 15px;
+  margin-top: 0px;
+  padding: 0px;
 }
 .story-text p{
   font-weight: normal;
@@ -91,7 +104,7 @@ a:hover {
 }
 
 .feeling-funny-story{
-  border: thin solid black;
+  /* border: thin solid black; */
 }
 
 .half-column-articles{
@@ -100,38 +113,106 @@ a:hover {
 
 .earth-spins-image{
   background-image: url("../images/img-story-2-fall-season.png");
-  border: thin solid black;
+  /* border: thin solid black; */
   font-size: 30px;
   font-weight: bold;
   color: white;
-  height: 300px;
+  height: 225px;
   margin-right: 20px;
   text-align:center;
+  padding-top: 75px;
 }
 
 .camera-image{
   background-image: url("../images/img-story-3-camera.png");
-  border: thin solid black;
+  /* border: thin solid black; */
   font-size: 30px;
   font-weight: bold;
   color: white;
-  height: 300px;
+  height: 225px;
   text-align: center;
+  padding-top: 75px;
 }
 
-.orca-story{
-  border: thin solid black;
+.cat-image{
+  background-image: url("../images/img-story-1-CEO-cat.png");
+  /* border: thin solid black; */
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  height: 225px;
+  text-align: center;
+  padding-top: 75px;
 }
-.burger-story{
-  border: thin solid black;
-}
+
+
 .column.medium {
   width: 300px;
-  border: thin solid green;
   margin-right: 25px;
 }
 
 .column.small {
+  display: flex;
   width: 240px;
-  border: thin solid blue;
+}
+.news-bites-header {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.news-bites-links p{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: thin solid black;
+  padding: 15px 15px;
+  margin: 0px;
+}
+/* ****** FOOTER ********* */
+.footer-container {
+  position:relative;
+  top: 150px;
+  left: 0px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  font-weight: normal;
+}
+
+.logo-and-nav{
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-logo{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 0px 20px 0px 0px;
+
+}
+
+.single-vert-line{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-nav-item-box{
+  padding-right: 15px;
+}
+
+.footerlist li {
+  display: inline-block;
 }
